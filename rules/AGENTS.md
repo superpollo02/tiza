@@ -79,8 +79,9 @@ Antes de responder al usuario, el agente DEBE autoauditar la existencia de los 1
 6. `03_pagina_...`: Módulo teórico estructurado con Glosario de términos clave y bloque FAQ.
 7. `infografia_unidad.png`: Infografía conceptual de síntesis creada e incrustada en la lectura.
 8. `04_tarea_...`: Incluye la consigna obligatoria (*«Esta práctica se resuelve con lo visto en los videos docentes...»*) y el caso de gestión con rúbrica.
-9. `conectabloques-SCORM.zip` y `trivia-SCORM.zip`: Paquetes SCORM 1.2 interactivos compilados (preguntas de trivia sin numeración fija como «Pregunta 1» para permitir aleatorización anti-trampa).
-10. `tiza comprobar *.html`: Auditoría ejecutada con éxito (`Paso COMPROBAR: ok`) en todos los ficheros HTML.
+9. `conectabloques-SCORM.zip` y `trivia-SCORM.zip`: Paquetes SCORM 1.2 interactivos compilados (preguntas de trivia sin numeración fija como «Pregunta 1» para permitir aleatorización anti-trampa, consigna orientadora obligatoria en `04_tarea_...`).
+10. `Examen Final Sumativo`: Si la unidad solicitada es la de cierre del programa, debe incluir el banner de examen final (`banner_examen_final.png`), la consigna formal de acreditación (45-50 min, nota mínima 70%), banco aleatorizado y restricción de acceso con candado en Moodle hasta completar las prácticas.
+11. `tiza comprobar *.html`: Auditoría ejecutada con éxito (`Paso COMPROBAR: ok`) en todos los ficheros HTML.
 
 ### C. Regla de Autocorrección (Self-Healing)
 Si durante la autoauditoría se detecta que **falta cualquiera de estos 10 componentes**, el agente **NO debe pedir confirmación ni dejarlo pendiente en su respuesta**: debe proceder inmediatamente a generarlo o compilarlo hasta satisfacer el 100% del checklist.
