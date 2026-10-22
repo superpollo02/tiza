@@ -1,0 +1,11 @@
+{
+  "name": "tiza",
+  "displayName": "Tiza — Aula Virtual Moodle, SCORM y Currículo Docente",
+  "version": "0.25.0",
+  "description": "Prepara y publica páginas, etiquetas, videos de clase, tareas, cuestionarios autocorregibles y actividades H5P en Moodle, redacta programaciones didácticas en Word y alinea unidades con la normativa curricular sin exponer datos del alumnado.",
+  "suggestedPrompts": [
+    "Prepárame la sección 'Clase' de una unidad con video principal, video adicional de profundización, práctica H5P y cuestionario para Moodle",
+    "Actualiza mi programación didáctica en Word a partir de la plantilla del departamento y la normativa vigente",
+    "Revisa mi programación antigua comparándola con la normativa actual y con la copia de seguridad de mi aula Moodle"
+  ]
+}

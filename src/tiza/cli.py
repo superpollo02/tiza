@@ -1,4 +1,4 @@
-"""CLI `tiza`: comandos offline y comandos autenticados de terminal."""
+﻿"""CLI `tiza`: comandos offline y comandos autenticados de terminal."""
 
 from __future__ import annotations
 
@@ -820,6 +820,7 @@ def instalar_skill(home: Path) -> list[Path]:
     origen = importlib.resources.files("tiza").joinpath("skill", "tiza")
     contenidos = _ficheros_de_la_skill(origen)
     carpetas = [
+        home / ".gemini" / "config" / "skills" / "tiza",
         home / ".claude" / "skills" / "tiza",
         home / ".agents" / "skills" / "tiza",
         home / ".codex" / "skills" / "tiza",

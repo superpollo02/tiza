@@ -1,0 +1,41 @@
+# TIZA — Plugin para Google Antigravity
+
+Este directorio contiene la distribución completa de **Tiza** adaptada para **Antigravity**.
+
+## ¿Cómo usarlo en cualquier otra computadora con Antigravity?
+
+Tienes 3 opciones sencillas según cómo prefieras organizarte:
+
+---
+
+### Opción 1: Instalarlo como Plugin Global de Antigravity (Recomendado)
+
+1. Copia toda esta carpeta `tiza` dentro de la carpeta de plugins globales de Antigravity del usuario:
+   - **Windows**: `C:\Users\<TuUsuario>\.gemini\config\plugins\tiza\`
+   - **Linux / macOS**: `~/.gemini/config/plugins/tiza/`
+
+2. Asegúrate de tener instalado el CLI `tiza` en la máquina con Python y `uv`:
+   ```bash
+   uv tool install tiza
+   ```
+   (o en modo editable/local apuntando a esta carpeta: `uv tool install .`)
+
+¡Listo! Antigravity detectará automáticamente el plugin `tiza`, sus reglas de protección inquebrantables (`rules/AGENTS.md`), sus hooks de seguridad (`hooks.json` + `scripts/tiza_guard.py`), su subagente docente (`agents/asistente-docente-tiza.md`) y sus skills (`skills/tiza` y `skills/tiza-instalar`).
+
+---
+
+### Opción 2: Usarlo en un Proyecto o Repositorio Específico (Workspace)
+
+Si tienes un repositorio de curso (por ejemplo, tu asignatura Moodle o un proyecto como `CURSO SCORM`):
+
+1. Copia la carpeta `skills/tiza` dentro de `.agents/skills/tiza/` del proyecto.
+2. Copia `hooks.json` y `scripts/tiza_guard.py` dentro de `.agents/`.
+3. Copia `rules/AGENTS.md` o agrégalo a tu `AGENTS.md` / `GEMINI.md` en la raíz del proyecto.
+
+---
+
+### Opción 3: Instalar solo la Skill en tu Configuración Personal
+
+Si solo quieres disponer de la skill en cualquier conversación de Antigravity:
+- Copia la carpeta `skills/tiza` a:
+  `~/.gemini/config/skills/tiza`
